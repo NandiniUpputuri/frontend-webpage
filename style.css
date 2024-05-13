@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main styles */
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(image2.png);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar {
+    width: 100%;
+    max-width: 1200px;
+    height: 75px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 200px;
+    height: 70px;
+}
+
+.logo {
+    color: coral;
+    font-size: 40px;
+    font-family: Arial;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.menu {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li {
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.menu ul li a {
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.4s ease-in-out;
+}
+
+.menu ul li a:hover {
+    color: coral !important;
+}
+
+.search {
+    width: 330px;
+    margin-left: auto;
+}
+
+.srch {
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid coral;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+}
+
+.content {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+.content h1 {
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 100px;
+}
+
+.content .par {
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: left; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%; 
+    right: 50px; 
+    transform: translate(0, -50%); 
+    background-color: black;
+}
+
+.form h2 {
+    text-align: center;
+    color:#ff7200;
+    margin-bottom: 15px;
+}
+
+.form input {
+    width: calc(100% - 20px);
+    margin-bottom: 15px;
+    background-color: #f2f2f2;
+    border: none;
+    padding: 8px;
+}
+
+.login-details {
+    text-align: left;
+    margin-bottom: 0; /* Remove the bottom margin */
+}
+
+.login-details input {
+    width: calc(100% - 20px);
+    margin-bottom: 10px; /* Reduce the bottom margin */
+    padding-left: 30px; /* Add padding for the symbol */
+    background-image: url('email-symbol.png'); /* Add email symbol */
+    background-repeat: no-repeat;
+    background-position: 5px center;
+}
+
+.login-details input[type="password"] {
+    background-image: url('password-symbol.png'); /* Add password symbol */
+}
+
+.link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.liw {
+    text-align: center;
+    color: white;
+}
+
+.icon {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Center the login button */
+.btnn {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Arrange social media icons */
+.icon a {
+    margin: 0 5px; /* Add space between icons */
+}
+
+.one {
+    padding: 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.one h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 0 10px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.card button {
+    background-color: #ff7200;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card button:hover {
+    background-color: #b36e00;
+}
+
