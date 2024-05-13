@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Main styles */
+
 .main {
     width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(image2.png);
@@ -149,20 +149,20 @@
 
 .login-details {
     text-align: left;
-    margin-bottom: 0; /* Remove the bottom margin */
+    margin-bottom: 0; 
 }
 
 .login-details input {
     width: calc(100% - 20px);
-    margin-bottom: 10px; /* Reduce the bottom margin */
-    padding-left: 30px; /* Add padding for the symbol */
-    background-image: url('email-symbol.png'); /* Add email symbol */
+    margin-bottom: 10px; 
+    padding-left: 30px; 
+    background-image: url('email-symbol.png'); 
     background-repeat: no-repeat;
     background-position: 5px center;
 }
 
 .login-details input[type="password"] {
-    background-image: url('password-symbol.png'); /* Add password symbol */
+    background-image: url('password-symbol.png'); 
 }
 
 .link {
@@ -180,15 +180,14 @@
     margin-top: 10px;
 }
 
-/* Center the login button */
 .btnn {
     display: block;
     margin: 0 auto;
 }
 
-/* Arrange social media icons */
+
 .icon a {
-    margin: 0 5px; /* Add space between icons */
+    margin: 0 5px; 
 }
 
 .one {
